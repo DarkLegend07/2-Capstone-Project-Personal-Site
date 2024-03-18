@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+}
+body{    
+    font-family: "Benne", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
+h2{
+    font-family: "Audiowide", sans-serif;
+    font-size: 28px;    
+    color: #747264;
+}
+h4{
+    font-family: "Audiowide", sans-serif;
+    font-size: 22px;    
+    color: #3C3633;
+}
+
+/* Greetings*/
+.greetings{
+    background-image: url(./assets/img/bg_aegle.jpg);
+    height: 750px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.greetings > h1{
+    font-family: "Ephesis", cursive;
+    font-size: 85px;
+    font-weight: bold;
+}
+
+
+.greetings > h3{
+    font-family: "Audiowide", sans-serif;
+    font-size: 28px;
+    margin-top: 20px;
+    color: #747264;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+    gap: 80px;
+}
+
+.hello{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 100px;
+}
+.hello > img{
+    width: 200px;
+    border-radius: 50%;
+    margin-bottom: 40px;
+    margin-top: 30px;
+}
+.hello > p{
+    margin-top: 20px;    
+}
+
+
+.myskills{
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.skills-full, .skills-art{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    gap: 60px;
+}
+
+.skill-img{
+    width: 200px;
+    border-radius: 15%;
+}
+.skills-text{
+    width: 500px;    
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.cta{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+    margin: 80px;
+}
+.cta > h4{
+    margin-top: 30px;
+}
+
+.cta > button{
+    color: white;
+    background-color: #97dbe4;
+    font-weight: bold;
+    font-size: 18px;    
+    border: none;
+    height: 50px;
+    width: 160px;
+    border-radius: 30px;
+    
+}
+.cta > button:hover{
+    background-color: #0be96f;
+}
+
+/* Footer*/
+.footer{
+    height: 200px;
+    background-color: #97dbe4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+.footer > p{
+    color: white;
+    font-size: 18px;
+}
+.social-medias{
+    display: flex;
+    gap: 25px;
+}
+.social-medias > a{    
+    color: gray;
+    font-weight: 500;
+    text-decoration: none;
+}
+.social-medias > a:hover{
+    color: white;
+}
